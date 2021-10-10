@@ -1,1 +1,39 @@
-yes yes yes 
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    padding: 20px;
+    margin: 0;
+    
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 16px;
+    margin-left: 200px;
+    margin-right: auto;
+    
+}
+
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: auto;
+}
+
+
+
+

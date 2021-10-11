@@ -65,7 +65,7 @@ ul {
     color: #e5e7eb;
 }
 
-button {
+.first-button {
     background-color: #3882f6;
     color: white;
     width: 150px;
@@ -73,6 +73,7 @@ button {
     border-radius: 10px;
     margin-top: 8px;
     font-weight: bold;
+    overflow: visible;
 }
 
 .right-side {
@@ -114,6 +115,11 @@ button {
     border-radius: 12px;
 }
 
+button:hover {
+    background-color: white;
+    color:#3882f6;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -153,4 +159,47 @@ button {
 .speaker {
     display: flex;
     width: 700px;
+}
+
+.cta {
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    display: flex;
+    background-color:#3882f6;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 200px;
+    border-radius: 12px;
+    color: white;
+}
+
+.action {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.second-button {
+    background-color: #3882f6;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 8px;
+    font-weight: bold;
+    border-color: white;
+}
+
+.positioning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 100px;
 }

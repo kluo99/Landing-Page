@@ -90,6 +90,7 @@ button {
 .information {
     display: flex;
     flex-direction: column;
+    padding: 50px;
 }   
 
 .random {
@@ -98,7 +99,7 @@ button {
     font-weight: bolder;
     color: #1f2937;
     justify-content: center;
-    padding: 50px;
+    margin-bottom: 50px;
 }
 
 .lower-content {
@@ -121,4 +122,35 @@ button {
     justify-content: center;
     text-align: center;
     gap: 10px;
+    
+}
+
+.container-quote {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    background-color:#e5e7eb ;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.speaker {
+    margin-left: 1150px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quote,
+.speaker {
+    display: flex;
+    width: 700px;
 }
